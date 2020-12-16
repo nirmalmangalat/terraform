@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "myawsserver" {
-  ami = "ami-0603cbe34fd08cb81"
+  ami = "ami-01e36b7901e884a10"
   instance_type = "t2.micro"
   key_name = "NIrmal-Key"
 
