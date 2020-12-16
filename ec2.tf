@@ -5,6 +5,7 @@ resource "aws_instance" "myawsserver" {
   tags = {
     Name = "NirmalVM100"
     Env = "Prod"
+    client = "Mangalat"
   }
 }
 
